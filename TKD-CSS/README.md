@@ -79,7 +79,7 @@ Ikutilah langkah-langkah pengerjaan di bawah ini:‌
    File-file gambar:
    logo laravel.png : copy dari folder img
    background pattern.png: copy dari folder img
-4. Membuat Layout HTML + CSS
+## 4. Membuat Layout HTML + CSS
    Buatlah halaman web dengan layout seperti di bawah ini:
   !['hasil'](img/hasil.gif)
    Hasil akhir pengerjaannya tidak harus persis sama, yang menjadi keharusan adalah tata letak element nya harus serupa. 
