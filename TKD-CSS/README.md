@@ -72,9 +72,9 @@ Ikutilah langkah-langkah pengerjaan di bawah ini:‌
     * dan didalam folder img terdapat file laravel.png dan patter.png‌
 3. Menyiapkan Asset Gambar
   laravel.png
-  <img src="img/laravel.png" width="20%" height="20%"/>
+  !['hasil'](img/laravel.png)
    pattern.png
-  <img src="img/pattern.jpg" width="20%" height="20%"/>
+  !['hasil'](img/pattern.png)
    keterangan: logo laravel untuk logo yang akan ditampilkan. sedangkan gambar pola yang di bawahnya adalah gambar yang dijadikan background. ‌
    File-file gambar:
    logo laravel.png : copy dari folder img
