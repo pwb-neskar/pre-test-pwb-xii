@@ -11,10 +11,14 @@ header {
   position: fixed;
 }
 
-nav li {
+li {
   display: inline;
   float: right;
   padding: 14px 16px;
+}
+
+nav ul a {
+  padding: 5px 10px;
 }
 
 nav ul {
@@ -30,7 +34,6 @@ nav ul {
 }
 
 a {
-  padding: 5px 10px;
   color: purple;
   text-decoration: none;
 }
