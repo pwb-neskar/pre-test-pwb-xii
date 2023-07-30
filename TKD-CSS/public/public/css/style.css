@@ -1,0 +1,60 @@
+body {
+    background-image: url(../img/pattern.jpg);
+  }
+  
+  header {
+    background-color: white;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    position: fixed;
+  }
+  
+  section {
+    margin-top: 120px;
+    padding: 20px;
+    background-color: white;
+    margin-left: 240px;
+    margin-right: 240px;
+  }
+  
+  nav ul {
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    list-style-type: none;
+    top: 0;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    float: right;
+    display: inline;
+    padding: 14px 5px;
+  }
+  
+  article {
+    margin-bottom: 30px;
+    border-bottom: 3px solid #000;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    margin-top: 30px;
+  }
+  a {
+    color: purple;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
