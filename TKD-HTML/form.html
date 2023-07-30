@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>Buat Account Baru</h2>
+    <h4>Sign Up Form</h4>
+
+    <form action="/action_page.php">
+      <label for="fname">First name:</label><br /><br />
+      <input type="text" id="fname" name="fname" value="" /><br /><br />
+      <label for="1name">Last name:</label><br /><br />
+      <input type="text" id="1name" name="1name" value="" /><br />
+    </form>
+
+    <p>Gender</p>
+    <form action="/action_page.php">
+      <input type="radio" id="male" name="gender" value="Male" />
+      <label for="male">Male</label><br />
+      <input type="radio" id="femlae" name="gender" value="Female" />
+      <label for="female">Female</label><br />
+    </form>
+
+    <p>Nationality</p>
+    <form action="/action_page.php">
+      <select id="nationality" name="nationality">
+        <option value="indonesia">Indonesia</option>
+        <option value="amerika">Amerika</option>
+        <option value="inggris">Inggris</option>
+      </select>
+    </form>
+
+    <p>Language Spoken</p>
+    <form action="/action_page.php">
+      <input
+        type="checkbox"
+        id="language1"
+        name="language1"
+        value="Indonesia"
+      />
+      <label for="language1">Bahasa Indonesia</label><br />
+      <input type="checkbox" id="language2" name="language2" value="English" />
+      <label for="language2">English</label><br />
+      <input type="checkbox" id="language3" name="language3" value="Other" />
+      <label for="language3">Other</label><br />
+    </form>
+
+    <p>Bio</p>
+    <form action="/action_page.php">
+      <textarea name="message" rows="10" cols="30"></textarea>
+      <br /><br />
+      <a href="welcome.html"><button type="button">Sign Up</button></a>
+    </form>
+  </body>
+</html>
